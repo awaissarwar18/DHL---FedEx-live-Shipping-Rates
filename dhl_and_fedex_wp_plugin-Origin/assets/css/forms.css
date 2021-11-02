@@ -1,0 +1,489 @@
+.well {
+  margin-bottom: 0px !important;
+}
+.error {
+  color: white;
+  display: none;
+}
+.grid-l1 {
+  height: auto;
+  min-height: 500px;
+  overflow: hidden;
+  padding: 10px;
+}
+.headerss {
+  display: flex;
+  text-align: left;
+  background: lightgray;
+  color: #000;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+  margin: 0px !important;
+}
+.level-box {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #ededed;
+  padding: 10px;
+  display: none;
+  font-size: 16px;
+}
+.box-a1 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 5px 0px;
+}
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 17px !important;
+  width: 17px !important;
+  left: 4px;
+  bottom: 5px !important;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slider.round {
+  border-radius: 34px;
+  height: 26px !important;
+  width: 51px;
+}
+.wpship-bg {
+  background-image: url(https://ship7.com/wp-content/uploads/2019/05/giftly.png);
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 32px;
+  border-radius: 30px;
+}
+.dim-warning {
+  margin: 10px 50px 0 0;
+  text-align: right;
+  color: #595959;
+  font-size: 16px;
+  font-family: 'Noto Sans JP', Sans-serif;
+  font-weight: 500;
+  display: none !important;
+}
+select {
+  font-size: 18px;
+}
+.page .title {
+  font-family: 'Noto Sans JP', Sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  /*text-align: center;*/
+  margin-bottom: 0;
+  font-size: 24px;
+  line-height: 52px;
+  color: #595959;
+}
+.title2 {
+  color: #888;
+  font-size: 24px;
+  line-height: 52px;
+  text-decoration: underline;
+  color: #888;
+}
+/* .page select, input {
+    font-size: 19px !important;
+    height: 56px !important;
+    margin-top: 10px;
+} */
+.btn-warning:not(:disabled):not(.disabled):active {
+  color: #212529 !important;
+  background-color: #ffc107 !important;
+  border-color: #ffc107 !important;
+}
+/*button {
+  background-color: #ffc107 !important;
+}*/
+.form-control {
+  font-family: work sans !important;
+}
+.reponseDiv {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.customContainer {
+  background-image: url(https://ship7.com/wp-content/uploads/2019/05/green_cup.jpg);
+  padding: 28px;
+  margin-top: 20px;
+}
+.form-caption {
+  text-align: left;
+  color: #eee !important;
+  font-family: work sans !important;
+  font-size: 15px;
+  line-height: 24px;
+}
+.form-value {
+  text-align: right;
+  color: #dd0 !important;
+  font-weight: bold;
+  font-family: 'Noto Sans JP', Sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.form-item:first-child {
+  padding-bottom: 10px;
+}
+.form-item:not(:first-child) {
+  border-top: solid 1px #fff;
+  padding: 10px 0;
+}
+.panel-heading a div {
+  color: #7397a3;
+  text-shadow: none;
+  font-family: 'Noto Sans JP', Sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 0;
+  padding-left: 20px;
+}
+
+.panel-heading a {
+  color: #7397a3;
+  font-size: 16px;
+  text-shadow: none;
+  font-weight: bold;
+  font-family: 'Noto Sans JP', Sans-serif;
+}
+
+.panel-heading {
+  padding: 10px 0px !important;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  border-radius: 3px;
+  color: #7397a3;
+  font-size: 16px;
+  text-shadow: none;
+  font-weight: 300;
+  background: #ddd !important;
+}
+.btn-warning {
+  letter-spacing: -0.03em !important;
+  color: #212529 !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  font-family: work sans !important;
+}
+.btn-warning:hover {
+  color: #212529 !important;
+  background-color: #e0a800 !important;
+  border-color: #d39e00 !important;
+}
+.btn-success:hover {
+  color: #fff !important;
+  background-color: #218838 !important;
+  border-color: #1e7e34 !important;
+}
+.badge-orange {
+  background: #e67e22 !important;
+}
+.badge {
+  font-weight: 300;
+  color: #f5f5f5;
+  border-radius: 3px !important;
+}
+.panel-body div {
+  color: #7397a3;
+  font-size: 14px;
+  text-shadow: none;
+  text-align: left;
+}
+.panel-body {
+  padding: 10px;
+  font-family: work sans !important;
+}
+.panel-body div .sub a {
+  text-decoration: underline;
+}
+.panel-body div .sub,
+.panel-body div .sub a {
+  font-size: 11px;
+}
+.panel-body div a {
+  color: #7397a3;
+  font-size: 14px;
+  text-shadow: none;
+  text-align: left;
+}
+.js-tt {
+  padding-top: 3px !important;
+}
+.panel-body div .fa {
+  margin-right: 10px;
+}
+.renderDiv {
+  width: 100% !important;
+  max-width: 100% !important;
+  display: none;
+}
+.error {
+  font-family: 'Noto Sans JP', Sans-serif;
+}
+.modifySelection {
+  color: #fff !important;
+  background-color: #28a745 !important;
+  border-color: #28a745 !important;
+}
+.btn:focus {
+  outline: 0px auto -webkit-focus-ring-color !important;
+}
+.panel-default > .panel-heading {
+  line-height: 0px;
+}
+.js-name {
+  padding-top: 4px !important;
+}
+.js-logo {
+  padding-top: 3px !important;
+}
+.js-price {
+  padding-top: 4px !important;
+}
+.js-arrow {
+  padding-top: 4px !important;
+}
+.panel-group {
+  margin-bottom: 0px !important;
+}
+@media (max-width: 576px) {
+  .title {
+    text-align: left !important;
+  }
+  .wpship-bg {
+    padding: 15px;
+  }
+  .dim-warning {
+    display: none !important;
+  }
+  .btn-lg {
+    padding: 10px 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    font-size: 16px !important;
+  }
+  .title {
+    font-size: 18px !important;
+    line-height: 33px !important;
+  }
+  .xs-hide {
+    display: none;
+  }
+  .panel-group .panel-heading {
+    text-align: center !important;
+  }
+  .panel-group .panel-heading img {
+    display: inline-block;
+  }
+
+  #Rates {
+    width: 100%;
+  }
+  .text-center {
+    text-align: center !important;
+  }
+  .text-left {
+    text-align: center !important;
+  }
+  .text-right {
+    text-align: center !important;
+  }
+  .js-arrow {
+    text-align: center !important;
+  }
+}
+#adminmenu .wp-menu-image img {
+  height: 25px;
+}
+
+/*------- Shipping Calculator Form ---------
+--------- Developer: Sohaib ----------------
+--------- Changes: add box shadow to shipping form
+--------- Changed files path: shipping/assets/css/form.css; shipping/includes/shipShortcode.php
+*/
+.form-center {
+  position: relative;
+  width: 74% !important;
+  left: 49.8%;
+  margin-top: -5%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  background: white;
+  border-radius: 0 !important;
+}
+
+.input_field {
+  background-color: #e1e1e152 !important;
+  border: 1px solid #ced4da !important;
+  border-radius: 3px !important;
+  padding: 15px 30px 15px 15px !important;
+  font-size: 19px !important;
+  width: 100% !important;
+  cursor: pointer !important;
+}
+
+.input_field_lg {
+  background: #e1e1e152 !important;
+  padding: 25px 0 !important;
+  font-size: 19px !important;
+}
+
+.dropdown-wrapper {
+  text-align: left;
+}
+
+.horizontal_divider {
+  margin-top: 40px !important;
+  margin-bottom: 25px !important;
+  background: #ced4da70;
+}
+
+.shipping_form_button {
+  margin-top: 20px;
+  padding: 10px 20px !important;
+}
+
+.label_title {
+  font-size: 20px !important;
+  line-height: 45px !important;
+  font-weight: 500;
+  color: #595959;
+}
+
+.shipping_title_main {
+  text-transform: uppercase;
+  margin: 20px !important;
+}
+
+.shipping_home {
+  position: relative;
+
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.shipping_home--bg {
+  position: relative;
+  min-height: 50vh;
+  background: url(../images/shipping-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.shipping_home_content {
+  position: relative;
+  z-index: 100;
+  color: white;
+  padding: 50px 0;
+}
+
+.shipping_home_content p {
+  font-size: 20px;
+  padding: 40px 0;
+}
+
+.shipping_home_content h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.shipping_home--overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #005396;
+  opacity: 0.8;
+}
+
+#error_message {
+  margin-bottom: 0;
+  display: none !important;
+}
+
+.spinner_lg {
+  width: 80px !important;
+  height: 80px !important;
+  margin: 50px 0 !important;
+}
+
+/*------- End of Shipping Calculator Form ----- */
+
+/*------- Settings Form ---------
+--------- Developer: Sohaib ----------------
+--------- Changes: changed styles of input fields
+--------- Changed files path: shipping/assets/css/form.css; shipping/includes/settings.php
+*/
+.admin_nav_tabs {
+  padding-top: 20px;
+}
+
+.admin_nav_tabs.active a {
+  border-bottom: none;
+}
+.admin_input_fields {
+  padding: 10px !important;
+  border-color: #ddd !important;
+  width: 30% !important;
+}
+.admin_form_outer {
+  margin: 0 !important;
+  border: 1px solid #ddd !important;
+  border-top: none !important;
+  padding: 0 30px 30px 30px !important;
+  padding-top: 10px !important;
+}
+
+.admin_form_outer h4 {
+  font-weight: 700;
+}
+
+.admin_table tr th {
+  margin-top: 20px;
+}
+
+#ship_postal {
+  padding: 15px;
+}
+#des_postal {
+  padding: 15px;
+}
+.bil_tabs {
+  padding: 30px 80px;
+}
+.bil_tabs a {
+  color: black;
+}
+.bil_tabs .active a {
+  color: #2196f3 !important;
+  font-weight: 600;
+  border: 1px solid #2196f3 !important;
+}
+.save_button {
+  border: none;
+  background: #2196f3;
+  padding: 10px 35px;
+  color: white;
+  border-radius: 3px;
+}
+/*------- End of Settings Form Form ----- */
+#btnn{
+    border: 1px solid #ded6d6 !important;
+    color: grey !important;
+    padding: 3px 3px 3px 6px;
+    cursor: pointer;
+}
+#text_shortcode{
+  margin-left: 25px;
+}
